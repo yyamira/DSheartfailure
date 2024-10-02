@@ -3,7 +3,7 @@
 1. Project Overview
 
 - Title: Predicting Heart Failure with Machine Learning
-Objective: Develop a machine learning model to predict heart failure based on patient data, helping identify at-risk individuals and improving early intervention.
+- Objective: Develop a machine learning model to predict heart failure based on patient data, helping identify at-risk individuals and improving early intervention.
 
 3. Problem Statement
    
