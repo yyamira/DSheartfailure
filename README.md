@@ -23,17 +23,15 @@ Features:
 
 - Languages: Python
 - Libraries: Scikit-Learn, Pandas, Matplotlib, Seaborn, NumPy
-- Algorithms: k-Nearest Neighbors (k-NN), Decision Trees, Naïve Bayes, K-Fold Cross-Validation
+- Algorithms: Logistic Regression, k-Nearest Neighbors (k-NN) and Naïve Bayes
 - Tools: Jupyter Notebook for development, GitHub for version control
 
 5. Solution Approach
 
 - Data Preprocessing: Handled missing values, normalized continuous features, and performed one-hot encoding for categorical variables.
-- Modeling: Implemented k-Nearest Neighbors, Decision Trees, and Naïve Bayes classifiers. Applied K-Fold Cross-Validation to evaluate model performance.
+- Modeling: Implemented Logistic Regression, k-Nearest Neighbors (k-NN) and Naïve Bayes. 
 - Performance Metrics: Used accuracy, precision, recall, and F1-score to evaluate models.
 
 6. Results
 
-- The k-NN model achieved an accuracy of 82%, while Decision Trees performed slightly better with 84%.
-- The Naïve Bayes classifier, though less accurate at 78%, provided valuable insights into conditional probabilities of risk factors.
-- Visualizations: Include confusion matrices, ROC curves, and feature importance charts to support findings.
+- Logistic Regression is the best model for our dataset with the ability to predict new, unseen data with 83.3% accuracy. However since the dataset has 67% more Class 0 (survived patients) over Class 1 (death patients), the model seems to be lacking in predicting Class 1 accurately, with all three models have precision, recall and f1-scores below 70%. Additional steps such as over-sampling and under-sampling could be done in the future to improve the performance of the imbalance data.
