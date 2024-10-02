@@ -17,7 +17,7 @@ Features:
 
 - Numerical: age, creatinine_phosphokinase, ejection_fraction, platelets, serum_creatinine, serum_sodium, time
 - Binary: anaemia, diabetes, high_blood_pressure, sex, smoking
-- Target: DEATH_EVENT (indicates if a patient experienced heart failure)
+- Target: DEATH_EVENT (indicates if a patient die/survive)
 
 4. Technologies Used
 
