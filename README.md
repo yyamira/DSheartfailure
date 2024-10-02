@@ -2,12 +2,12 @@
 
 1. Project Overview
 
-- Title: Predicting Heart Failure with Machine Learning
-- Objective: Develop a machine learning model to predict heart failure based on patient data, helping identify at-risk individuals and improving early intervention.
+- Title: Survival Classificatation of Heart Failure Patients
+- Objective: Develop a machine learning model to classify the survival of patients with heart failure
 
 3. Problem Statement
    
-- Predicting heart failure can improve patient outcomes by identifying risk factors and providing timely medical interventions. Using a dataset of 299 patients with 12 features, the project aims to build predictive models for classifying whether a patient will experience heart failure.
+- Classify survival of patients with heart failure can improve patient outcomes by identifying risk factors and providing timely medical interventions. Using a dataset of 299 patients with 12 features, the project aims to build predictive models for classifying whether a patient will experience heart failure.
 
 5. Dataset
 
@@ -24,11 +24,11 @@ Features:
 - Languages: Python
 - Libraries: Scikit-Learn, Pandas, Matplotlib, Seaborn, NumPy
 - Algorithms: Logistic Regression, k-Nearest Neighbors (k-NN) and Naïve Bayes
-- Tools: Jupyter Notebook for development, GitHub for version control
+- Tools: Jupyter Notebook for developmentl
 
 5. Solution Approach
 
-- Data Preprocessing: Handled missing values, normalized continuous features, and performed one-hot encoding for categorical variables.
+- Data Preprocessing: MinMaxScaler
 - Modeling: Implemented Logistic Regression, k-Nearest Neighbors (k-NN) and Naïve Bayes. 
 - Performance Metrics: Used accuracy, precision, recall, and F1-score to evaluate models.
 
