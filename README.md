@@ -1,14 +1,15 @@
 # DSheartfailure
-The task is to classify the survival of patients with heart failure disease.
 
 1. Project Overview
+
 Title: Predicting Heart Failure with Machine Learning
 Objective: Develop a machine learning model to predict heart failure based on patient data, helping identify at-risk individuals and improving early intervention.
 
-2. Problem Statement
+3. Problem Statement
+   
 Predicting heart failure can improve patient outcomes by identifying risk factors and providing timely medical interventions. Using a dataset of 299 patients with 12 features, the project aims to build predictive models for classifying whether a patient will experience heart failure.
 
-3. Dataset
+5. Dataset
 Dataset Name: Heart Failure Dataset (299 rows, 12 features)
 Features:
 
